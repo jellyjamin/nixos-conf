@@ -75,7 +75,7 @@ services.xserver.displayManager.setupCommands = ''
 	wget
 	nano
   apt
-  Timeshift
+  timeshift
   Jellyfin
   mullvad
   syncthing
