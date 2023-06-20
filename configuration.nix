@@ -73,7 +73,12 @@ services.xserver.displayManager.setupCommands = ''
    environment.systemPackages = with pkgs; [
         vim
 	wget
-	w3m
+	nano
+  apt
+  Timeshift
+  mullvad
+  syncthing
+  w3m
 	dmenu
   neofetch
 	neovim
@@ -85,7 +90,6 @@ services.xserver.displayManager.setupCommands = ''
 	celluloid
 	chatterino2
   clang-tools_9
-	davinci-resolve
 	dwm
 	dunst
 	elinks
