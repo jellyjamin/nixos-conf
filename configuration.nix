@@ -76,10 +76,10 @@ services.xserver.displayManager.setupCommands = ''
 	nano
   apt
   timeshift
-  Jellyfin
+  jellyfin
   mullvad
   syncthing
-  VLC
+  vlc
   w3m
 	dmenu
   neofetch
