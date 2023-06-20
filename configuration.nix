@@ -81,6 +81,7 @@ services.xserver.displayManager.setupCommands = ''
   syncthing
   vlc
   w3m
+  vscode
 	dmenu
   neofetch
 	neovim
