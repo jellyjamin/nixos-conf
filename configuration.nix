@@ -31,7 +31,7 @@ nix.settings = {
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
 
   # Set your time zone.
-  time.timeZone = "America/Chicago";
+  time.timeZone = "America/NewYork";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -50,7 +50,7 @@ nix.settings = {
 	lightdm.enable = true;
   	autoLogin = {
 		enable = true;
-		user = "titus";
+		user = "jelly";
 	};
   };
 services.xserver.displayManager.setupCommands = ''
@@ -63,7 +63,7 @@ services.xserver.displayManager.setupCommands = ''
   hardware.pulseaudio.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.titus = {
+  users.users.jelly = {
      isNormalUser = true;
      extraGroups = [ "wheel" "kvm" "input" "disk" "libvirtd" ]; # Enable ‘sudo’ for the user.
   };
